@@ -16,4 +16,4 @@ tgframework is a Spring-Boot-start project to help distributed cluster continuou
        tg.applicationtype: master
    ```
    ###&nbsp;&nbsp; Architecture diagram
-   ![architecture]()
+   ![architecture](https://github.com/tzw-1998/tgframework/blob/master/image/%E6%9E%B6%E6%9E%84%E5%9B%BE.png)
