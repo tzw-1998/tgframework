@@ -1,19 +1,17 @@
 # Application Initializers
 org.springframework.context.ApplicationContextInitializer=\
-org.springframework.boot.devtools.restart.RestartScopeInitializer
-
+com.tzw.tgframework.restart.RestartScopeInitializer
 # Application Listeners
 org.springframework.context.ApplicationListener=\
-org.springframework.boot.devtools.restart.RestartApplicationListener,\
-org.springframework.boot.devtools.logger.DevToolsLogFactory.Listener
+com.tzw.tgframework.restart.RestartApplicationListener,\
+com.tzw.tgframework.logger.DevToolsLogFactory
 
 # Auto Configure
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-org.springframework.boot.devtools.autoconfigure.DevToolsDataSourceAutoConfiguration,\
-org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration,\
-org.springframework.boot.devtools.autoconfigure.RemoteDevToolsAutoConfiguration
+com.tzw.tgframework.autoconfigure.LocalDevToolsAutoConfiguration,\
+com.tzw.tgframework.autoconfigure.RemoteDevToolsAutoConfiguration
 
 # Environment Post Processors
 org.springframework.boot.env.EnvironmentPostProcessor=\
-org.springframework.boot.devtools.env.DevToolsHomePropertiesPostProcessor,\
-org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor
+com.tzw.tgframework.env.DevToolsHomePropertiesPostProcessor,\
+com.tzw.tgframework.env.DevToolsPropertyDefaultsPostProcessor
